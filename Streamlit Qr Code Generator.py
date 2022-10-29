@@ -23,7 +23,7 @@ def main():
             raw_text = st.text_area("Text Here")
             submit_button = st.form_submit_button("Generate")
 
-        If submit_button:
+        if submit_button:
 
             col1,col2 =  st.beta_columns(2)
 
@@ -50,5 +50,5 @@ def main():
     else:
         st.subheader("About")
 
-if __name__ == '__main__'
+if __name__ == '__main__':
     main()
